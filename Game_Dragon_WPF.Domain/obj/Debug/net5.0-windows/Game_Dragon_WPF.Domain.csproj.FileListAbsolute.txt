@@ -1,0 +1,15 @@
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\bin\Debug\net5.0-windows\Game_Dragon_WPF.Domain.deps.json
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\bin\Debug\net5.0-windows\Game_Dragon_WPF.Domain.dll
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\bin\Debug\net5.0-windows\ref\Game_Dragon_WPF.Domain.dll
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\bin\Debug\net5.0-windows\Game_Dragon_WPF.Domain.pdb
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.Media.resources
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.csproj.GenerateResource.cache
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.AssemblyInfoInputs.cache
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.AssemblyInfo.cs
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.dll
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\ref\Game_Dragon_WPF.Domain.dll
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.pdb
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.csproj.AssemblyReference.cache
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\bin\Debug\net5.0-windows\Resources\Som_Fogo.mp3
