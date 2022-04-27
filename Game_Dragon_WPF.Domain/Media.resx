@@ -202,6 +202,18 @@
   <data name="Som_Fogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Som_Fogo.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="VesFire_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\VesFire_0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VesFire_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\VesFire_1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VesFire_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\VesFire_2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VesFire_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\VesFire_3.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Ves_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Ves_0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

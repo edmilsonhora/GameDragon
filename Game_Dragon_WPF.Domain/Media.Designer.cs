@@ -419,5 +419,45 @@ namespace Game_Dragon_WPF.Domain {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] VesFire_0 {
+            get {
+                object obj = ResourceManager.GetObject("VesFire_0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] VesFire_1 {
+            get {
+                object obj = ResourceManager.GetObject("VesFire_1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] VesFire_2 {
+            get {
+                object obj = ResourceManager.GetObject("VesFire_2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] VesFire_3 {
+            get {
+                object obj = ResourceManager.GetObject("VesFire_3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
