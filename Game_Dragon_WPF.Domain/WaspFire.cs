@@ -16,13 +16,12 @@ namespace Game_Dragon_WPF.Domain
         public WaspFire(Canvas canvas, Wasp wasp) : base(canvas)
         {
             X = wasp.X;
-            Y = wasp.Y;
+            Y = wasp.Y + 40;
             Height = 30;
             Width = 30;
             rect = Rect;
             rect.Fill = Helper.GetImage(fires[i]);
             rect.Margin = GetPosition();
-
         }
 
         public override void Draw()
@@ -31,10 +30,11 @@ namespace Game_Dragon_WPF.Domain
             Canvas.Children.Add(rect);
         }
 
-        public void Mover()
+        public void Mover()           
         {
-            X -= 6;
+            X -= 8;
             Y += 6;
+           
             rect.Fill = Helper.GetImage(fires[i]);
             rect.Margin = GetPosition();
             i++;

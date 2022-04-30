@@ -13,10 +13,10 @@ namespace Game_Dragon_WPF.Domain
         Rectangle rect;
         byte[][] flyes = { Media.Ves_0, Media.Ves_0, Media.Ves_2, Media.Ves_3, Media.Ves_4, Media.Ves_5, Media.Ves_6, Media.Ves_7 };
         int i = 0;
-        int velocityFly;
+        int flyVelocity;
         public Wasp(Canvas canvas, Random random) : base(canvas)
         {
-            velocityFly = random.Next(10, 18);
+            flyVelocity = random.Next(10, 18);
             X = (int)Canvas.Width - 100;
             Y = random.Next(70, 360);
             Height = 100;
@@ -45,12 +45,19 @@ namespace Game_Dragon_WPF.Domain
                 }
             }
 
-            X -= velocityFly;
+            X -= flyVelocity;
             rect.Fill = Helper.GetImage(flyes[i]);
             rect.Margin = GetPosition();
             i++;
             if (i > 7)
                 i = 0;
+        }
+
+        public WaspFire Fire()
+        {
+            var newFire = new WaspFire(Canvas, this);
+            newFire.Draw();
+            return newFire;
         }
     }
 }
