@@ -25,16 +25,19 @@ namespace Game_Dragon_WPF.UI
         Random random;
         DispatcherTimer gameTimer;
         DispatcherTimer createEnemiesTimer;
+       
         Canvas canvas;
         BackGround backGround;
         BackGround backGround2;
         Dragon dragon;
+        Energy energy;
         List<Boar> boars;
         List<Fire> fires;
         List<Flame> flames;
         List<Soldier> soldiers;
         List<Wasp> wasps;
-        int timeToSoldies = 50, timeToBoars=80, timeToWasps = 120;        
+        List<WaspFire> waspFires;
+        int timeToSoldies = 50, timeToBoars=80, timeToWasps = 120, timeToWaspFire =60;        
         public MainWindow()
         {
             InitializeComponent();
@@ -46,19 +49,26 @@ namespace Game_Dragon_WPF.UI
             backGround = new BackGround(canvas,0);
             backGround2 = new BackGround(canvas,1200);
             dragon = new Dragon(canvas);
+            energy = new Energy(canvas);
             boars = new List<Boar>();
             fires = new List<Fire>();
             flames = new List<Flame>();
             soldiers = new List<Soldier>();
             wasps = new List<Wasp>();
+            waspFires = new List<WaspFire>();
             backGround2.Draw();
             backGround.Draw();            
             dragon.Draw();
+            energy.Draw();
 
             gameTimer = new DispatcherTimer(DispatcherPriority.Render);
             gameTimer.Interval = TimeSpan.FromMilliseconds(72);
             gameTimer.Tick += GameTimer_Tick;
             gameTimer.Start();
+
+           
+            
+
 
             createEnemiesTimer = new DispatcherTimer(DispatcherPriority.Render);
             createEnemiesTimer.Interval = TimeSpan.FromMilliseconds(20);
@@ -70,6 +80,7 @@ namespace Game_Dragon_WPF.UI
 
         private void CreateEnemiesTimer_Tick(object sender, EventArgs e)
         {
+            dragon.Gravity();
 
             if (timeToWasps <= 0)
             {
@@ -95,21 +106,32 @@ namespace Game_Dragon_WPF.UI
                 timeToBoars = random.Next(100, 350);
             }
 
+            if(timeToWaspFire <= 0)
+            {
+                foreach (var wasp in wasps)
+                {
+                    waspFires.Add(wasp.Fire());
+                }
+                timeToWaspFire = 80;
+            }
+
             timeToBoars--;
             timeToSoldies--;
-            timeToWasps--;  
+            timeToWasps--;
+            timeToWaspFire--;
 
         }
 
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            dragon.Gravity();
+            energy.Reduzir();
             backGround.Move();
             backGround2.Move();
             soldiers.RemoveAll(p => !p.IsAlive);
             wasps.RemoveAll(p => !p.IsAlive);
             flames.RemoveAll(p => !p.IsAlive);
             boars.RemoveAll(p => !p.IsAlive);
+            waspFires.RemoveAll(p => !p.IsAlive);
             fires.ForEach(p => p.Hide());
             fires.RemoveAll(p => !p.IsAlive);           
             dragon.Mover();
@@ -122,6 +144,7 @@ namespace Game_Dragon_WPF.UI
             fires.ForEach(p => p.Draw());
             fires.ForEach(p => p.Move());
             flames.ForEach(p => p.Move());
+            waspFires.ForEach(p => p.Mover());
            
             
 
