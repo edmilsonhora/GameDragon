@@ -37,7 +37,8 @@ namespace Game_Dragon_WPF.UI
         List<Soldier> soldiers;
         List<Wasp> wasps;
         List<WaspFire> waspFires;
-        int timeToSoldies = 50, timeToBoars=80, timeToWasps = 120, timeToWaspFire =60;        
+        List<Coin> coins;
+        int timeToSoldies = 50, timeToBoars=80, timeToWasps = 120, timeToWaspFire = 60, timeToCoins = 10;        
         public MainWindow()
         {
             InitializeComponent();
@@ -56,19 +57,16 @@ namespace Game_Dragon_WPF.UI
             soldiers = new List<Soldier>();
             wasps = new List<Wasp>();
             waspFires = new List<WaspFire>();
+            coins = new List<Coin>();
             backGround2.Draw();
             backGround.Draw();            
             dragon.Draw();
             energy.Draw();
 
             gameTimer = new DispatcherTimer(DispatcherPriority.Render);
-            gameTimer.Interval = TimeSpan.FromMilliseconds(72);
+            gameTimer.Interval = TimeSpan.FromMilliseconds(58);
             gameTimer.Tick += GameTimer_Tick;
             gameTimer.Start();
-
-           
-            
-
 
             createEnemiesTimer = new DispatcherTimer(DispatcherPriority.Render);
             createEnemiesTimer.Interval = TimeSpan.FromMilliseconds(20);
@@ -115,10 +113,25 @@ namespace Game_Dragon_WPF.UI
                 timeToWaspFire = 80;
             }
 
+            if(timeToCoins <= 0)
+            {
+                int qtdCoins = random.Next(2, 7);
+                int espaco = 40;
+                for (int i = 0; i < qtdCoins; i++)
+                {
+                    var c = new Coin(canvas, espaco);
+                    c.Draw();
+                    coins.Add(c);
+                    espaco += 40;
+                }
+                timeToCoins = random.Next(300, 600);
+            }
+
             timeToBoars--;
             timeToSoldies--;
             timeToWasps--;
             timeToWaspFire--;
+            timeToCoins--;
 
         }
 
@@ -133,7 +146,8 @@ namespace Game_Dragon_WPF.UI
             boars.RemoveAll(p => !p.IsAlive);
             waspFires.RemoveAll(p => !p.IsAlive);
             fires.ForEach(p => p.Hide());
-            fires.RemoveAll(p => !p.IsAlive);           
+            fires.RemoveAll(p => !p.IsAlive);
+            coins.RemoveAll(p => !p.IsAlive);
             dragon.Mover();
             
             soldiers.ForEach(p => p.Jump());
@@ -145,10 +159,7 @@ namespace Game_Dragon_WPF.UI
             fires.ForEach(p => p.Move());
             flames.ForEach(p => p.Move());
             waspFires.ForEach(p => p.Mover());
-           
-            
-
-
+            coins.ForEach(p => p.Move(dragon));
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)

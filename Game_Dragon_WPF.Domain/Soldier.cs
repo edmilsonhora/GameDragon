@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -60,9 +59,6 @@ namespace Game_Dragon_WPF.Domain
             if (i > 7)
                 i = 0;
         }
-
-        
-
         public override void Gravity()
         {
             base.Gravity();
