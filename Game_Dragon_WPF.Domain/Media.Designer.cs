@@ -113,6 +113,76 @@ namespace Game_Dragon_WPF.Domain {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] Coin_0 {
+            get {
+                object obj = ResourceManager.GetObject("Coin_0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Coin_1 {
+            get {
+                object obj = ResourceManager.GetObject("Coin_1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Coin_2 {
+            get {
+                object obj = ResourceManager.GetObject("Coin_2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Coin_3 {
+            get {
+                object obj = ResourceManager.GetObject("Coin_3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Coin_4 {
+            get {
+                object obj = ResourceManager.GetObject("Coin_4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Coin_5 {
+            get {
+                object obj = ResourceManager.GetObject("Coin_5", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Coin_6 {
+            get {
+                object obj = ResourceManager.GetObject("Coin_6", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] Drag_0 {
             get {
                 object obj = ResourceManager.GetObject("Drag_0", resourceCulture);

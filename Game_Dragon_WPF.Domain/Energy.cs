@@ -37,7 +37,7 @@ namespace Game_Dragon_WPF.Domain
 
         public void Reduzir()
         {
-            if(front.Width > 1)
+            if(front.Width > 100)
             front.Width -= 1;
         }
     }

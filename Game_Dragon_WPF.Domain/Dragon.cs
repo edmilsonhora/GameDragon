@@ -26,6 +26,8 @@ namespace Game_Dragon_WPF.Domain
             rect.Margin = GetPosition();
         }
 
+        public int Cash { get; set; }
+
         public override void Draw()
         {
             Canvas.Children.Add(rect);
