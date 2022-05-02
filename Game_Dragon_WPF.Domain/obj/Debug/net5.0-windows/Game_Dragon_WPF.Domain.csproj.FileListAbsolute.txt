@@ -12,3 +12,4 @@ C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\ob
 C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.dll
 C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\ref\Game_Dragon_WPF.Domain.dll
 C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.pdb
+C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\obj\Debug\net5.0-windows\Game_Dragon_WPF.Domain.csproj.AssemblyReference.cache

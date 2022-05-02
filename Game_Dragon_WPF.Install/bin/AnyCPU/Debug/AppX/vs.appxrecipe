@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-VV5SP73</Machine>
+    <WindowsUser>Edmilson da Hora</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0a884031-1590-465e-b73e-635ff0fe2bf4</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Edmilson da Hora</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\bin\AnyCPU\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D6F4C6D22A82DC146D3F5BEF9BEF38AF7FA9C536CA9D6526D76B23852610CADE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0a884031-1590-465e-b73e-635ff0fe2bf4_1.0.0.0_neutral__hh6616yjvgyat</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0a884031-1590-465e-b73e-635ff0fe2bf4_hh6616yjvgyat!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0a884031-1590-465e-b73e-635ff0fe2bf4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Edmilson da Hora</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\bin\AnyCPU\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:49.657</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-05-02T11:42:45.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:14.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-02T11:58:15.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Install\bin\AnyCPU\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-05-02T11:58:49.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\bin\Debug\net5.0-windows\Game_Dragon_WPF.Domain.dll">
+      <PackagePath>Game_Dragon_WPF.UI\Game_Dragon_WPF.Domain.dll</PackagePath>
+      <Modified>2022-05-02T11:49:04.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.UI\bin\Debug\net5.0-windows\Game_Dragon_WPF.UI.deps.json">
+      <PackagePath>Game_Dragon_WPF.UI\Game_Dragon_WPF.UI.deps.json</PackagePath>
+      <Modified>2022-05-02T11:49:04.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.UI\bin\Debug\net5.0-windows\Game_Dragon_WPF.UI.runtimeconfig.dev.json">
+      <PackagePath>Game_Dragon_WPF.UI\Game_Dragon_WPF.UI.runtimeconfig.dev.json</PackagePath>
+      <Modified>2022-05-02T11:49:04.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.Domain\Resources\Som_Fogo.mp3">
+      <PackagePath>Game_Dragon_WPF.UI\Resources\Som_Fogo.mp3</PackagePath>
+      <Modified>2022-04-11T12:53:04.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.UI\obj\Debug\net5.0-windows\apphost.exe">
+      <PackagePath>Game_Dragon_WPF.UI\Game_Dragon_WPF.UI.exe</PackagePath>
+      <Modified>2022-05-02T11:49:04.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.UI\bin\Debug\net5.0-windows\Game_Dragon_WPF.UI.runtimeconfig.json">
+      <PackagePath>Game_Dragon_WPF.UI\Game_Dragon_WPF.UI.runtimeconfig.json</PackagePath>
+      <Modified>2022-05-02T11:49:04.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edmilson da Hora\source\repos\Game_Dragon_WPF\Game_Dragon_WPF.UI\bin\Debug\net5.0-windows\Game_Dragon_WPF.UI.dll">
+      <PackagePath>Game_Dragon_WPF.UI\Game_Dragon_WPF.UI.dll</PackagePath>
+      <Modified>2022-05-02T11:49:04.814</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
