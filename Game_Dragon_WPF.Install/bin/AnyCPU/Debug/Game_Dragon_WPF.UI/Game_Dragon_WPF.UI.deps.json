@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Game_Dragon_WPF.UI/1.0.0": {
+        "dependencies": {
+          "Game_Dragon_WPF.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Game_Dragon_WPF.UI.dll": {}
+        }
+      },
+      "Game_Dragon_WPF.Domain/1.0.0": {
+        "runtime": {
+          "Game_Dragon_WPF.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Game_Dragon_WPF.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game_Dragon_WPF.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
