@@ -166,6 +166,33 @@
   <data name="Drag_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Drag_3.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Drag_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Drag_4.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Drag_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Drag_5.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Drag_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Drag_6.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Drag_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Drag_7.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Energy_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Energy_0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Energy_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Energy_1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Energy_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Energy_2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Energy_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Energy_3.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Energy_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Energy_4.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Fire_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Fire_0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

@@ -223,6 +223,96 @@ namespace Game_Dragon_WPF.Domain {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] Drag_4 {
+            get {
+                object obj = ResourceManager.GetObject("Drag_4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Drag_5 {
+            get {
+                object obj = ResourceManager.GetObject("Drag_5", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Drag_6 {
+            get {
+                object obj = ResourceManager.GetObject("Drag_6", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Drag_7 {
+            get {
+                object obj = ResourceManager.GetObject("Drag_7", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Energy_0 {
+            get {
+                object obj = ResourceManager.GetObject("Energy_0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Energy_1 {
+            get {
+                object obj = ResourceManager.GetObject("Energy_1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Energy_2 {
+            get {
+                object obj = ResourceManager.GetObject("Energy_2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Energy_3 {
+            get {
+                object obj = ResourceManager.GetObject("Energy_3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Energy_4 {
+            get {
+                object obj = ResourceManager.GetObject("Energy_4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] Fire_0 {
             get {
                 object obj = ResourceManager.GetObject("Fire_0", resourceCulture);
